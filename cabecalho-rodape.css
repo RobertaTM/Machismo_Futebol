@@ -50,7 +50,7 @@ header{
     position: fixed;
     top: 2px;
     width: 97%;
-    margin-left: 1%;
+    margin-left: -0.5%;
 }
 
 #link_index:hover,#link_regras:hover{
@@ -93,7 +93,7 @@ footer{
         
     }
     header{
-        margin-left: 0%;
+        margin-left: -0.5%;
     }
     footer{
         font-size: 18px;
