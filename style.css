@@ -1,0 +1,39 @@
+.conteudo{
+  
+    margin-top: 120px;
+}
+#img1{
+    height: auto;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px 1px rgba(219, 73, 171, 0.247);;
+}
+#img1_div{
+    width: 100%;
+    text-align: center;
+}
+body{
+    
+    font-size: 25px;
+}
+#regras{
+    text-decoration: none;
+    color: rgb(223, 35, 123);
+}
+#regras:hover{
+    color: goldenrod;
+}
+
+@media only screen and (max-width: 395px){
+    body{
+    
+        font-size: 20px;
+    }
+    #img1{
+        width: 270px;
+    }
+    .conteudo{
+  
+        margin-top: 90px;
+    }
+}

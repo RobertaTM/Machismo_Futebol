@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+/* font-family: 'Caveat', cursive; */
+
+@import url('https://fonts.googleapis.com/css2? family= Viga & display=swap');
+/* font-family:  'Viga', sem serifa; */
+
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+/* font-family: 'Rammetto One', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+/* font-family: 'Comfortaa', cursive; */
+
+body{
+    font-family: 'Comfortaa', cursive;
+    background-color: rgb(26, 26, 26);
+    color: whitesmoke;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#link_index,#link_regras{
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 35px;
+  
+  position: relative;
+  top: -20px;
+  left: px;
+  margin-left: 30px;
+}
+
+.img_header{
+    height: auto;
+    margin-top: 10px;
+    width: 70px;
+    transform: rotate(-10deg);
+margin-left: 30px;
+}
+.div_header{
+    display: inline-block;
+}
+
+header{
+    font-family: 'Rammetto One', cursive;
+    background-color: rgba(243, 131, 206, 0.479);
+    border-radius: 20px;
+    position: fixed;
+    top: 2px;
+    width: 97%;
+    margin-left: 1%;
+}
+
+#link_index:hover,#link_regras:hover{
+    color: rgb(245, 179, 210);
+}
+
+
+footer{
+    text-align: center;
+    width: 99%;
+    border-top: 1px solid rgb(223, 35, 123);
+    font-size: 20px;
+   
+    bottom: 0;
+}
+#div_footer{
+    margin-top: 10px;
+}
+@media only screen and (max-width: 530px){
+    .img_header{
+        width: 60px;
+    }
+
+    #link_index,#link_regras{
+        font-size: 25px;
+        margin-left: 20px;
+    }
+}@media only screen and (max-width: 375px){
+    .img_header{
+        width: 50px;
+    }
+
+    #link_index,#link_regras{
+        font-size: 22px;
+        margin-left: 10px;
+    }
+
+    .img_header{
+        margin-left: 15px;
+        
+    }
+    header{
+        margin-left: 0%;
+    }
+    footer{
+        font-size: 18px;
+    }
+}
